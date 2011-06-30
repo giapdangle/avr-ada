@@ -12,7 +12,7 @@
 # list of primary devices
 #
 PRIM_MCU_LIST := at90s2313 at90s8515 atmega8 atmega162 atmega168 atmega169 \
-   atmega32 atmega328p atmega644 atmega644p
+   atmega32 atmega328p atmega328 atmega644 atmega644p
 
 #
 # list of not yet supported devices

@@ -68,7 +68,7 @@ package AVR.Timer1 is
    procedure Enable_Interrupt_Compare;
    procedure Enable_Interrupt_Overflow;
 
-   --  #if MCU = "atmega168" or else MCU = "atmega328p" or else MCU = "atmega644" or else MCU = "atmega644p" then
+   --  #if MCU = "atmega168" or else MCU = "atmega328p" or else MCU = "atmega328" or else MCU = "atmega644" or else MCU = "atmega644p" then
    Signal_Compare  : constant String := MCU.Sig_Timer1_CompA_String;
    Signal_Overflow : constant String := MCU.Sig_Timer1_OVF_String;
    --  #end if;
